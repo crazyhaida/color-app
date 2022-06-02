@@ -10,13 +10,11 @@ app = Flask(__name__)
 color_codes = {
     "red": "#e74c3c",
     "green": "#16a085",
-    "gold": "#FFD700",
-    "lime": "#00FF00",
     "pink": "#be2edd",
     "darkblue": "#130f40"
 }
 
-color = os.environ.get('APP_COLOR') or random.choice(["red","green","blue","blue2","darkblue","pink"])
+color = os.environ.get('APP_COLOR') or random.choice(["red","green","darkblue","pink"])
 
 @app.route("/")
 def main():
