@@ -10,8 +10,8 @@ app = Flask(__name__)
 color_codes = {
     "red": "#e74c3c",
     "green": "#16a085",
-    "blue": "#2980b9",
-    "blue2": "#30336b",
+    "gold": "#FFD700",
+    "lime": "#00FF00",
     "pink": "#be2edd",
     "darkblue": "#130f40"
 }
